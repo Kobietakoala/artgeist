@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {"App\\":  "src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "scripts": {
+        "test": ".\\vendor\\bin\\phpunit tests"
+    }
+}
